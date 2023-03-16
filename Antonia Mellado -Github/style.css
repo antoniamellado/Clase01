@@ -1,0 +1,35 @@
+html, body {
+  font-family:Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: rgb(200,255,255)
+}
+
+canvas {
+  display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+a#mio{
+  font-weight:bold;
+  background:pink;
+  color:white;
+  position: fixed; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%)
+  box-shadow: 1px 1px 30px black;
+     padding:1rem 2rem
+     border-radius:5px;
+}
+
+a#mio:hover{
+  background: pink
+  color:black;
+  transition: all else ls;
+    top:50.5%;
+    box-shadow:1px 1px 10px black;
+}
